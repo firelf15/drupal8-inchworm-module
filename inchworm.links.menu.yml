@@ -1,0 +1,6 @@
+inchworm.form:
+  title: 'Inchworm'
+  parent: main
+  description: 'Maths'
+  route_name: inchworm.form
+  weight: -1
