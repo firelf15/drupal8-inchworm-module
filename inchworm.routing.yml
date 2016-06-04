@@ -4,3 +4,10 @@ inchworm:
         _controller: Drupal\inchworm\Controller\InchwormController::inchworm
     requirements:
         _permission: 'access content'
+inchworm.form:
+    path: /inchworm-form
+    defaults:
+      _title: 'Inchworm Form'
+      _form: \Drupal\inchworm\Form\InchwormForm
+    requirements:
+        _permission: 'access content'
