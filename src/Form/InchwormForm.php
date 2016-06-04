@@ -14,11 +14,11 @@ class InchwormForm extends FormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
     // Create a $form API array.
     $form['first_number'] = array(
-      '#type' => 'number',
+      '#type' => 'textfield',
       '#title' => $this->t('Pick a number, any number.')
     );
     $form['second_number'] = array(
-      '#type' => 'number',
+      '#type' => 'textfield',
       '#title' => $this->t('Pick a number, another number.')
     );
     $form['submit'] = array(
