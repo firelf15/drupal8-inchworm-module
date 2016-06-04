@@ -21,6 +21,10 @@ class InchwormForm extends FormBase {
       '#type' => 'number',
       '#title' => $this->t('Pick a number, another number.')
     );
+    $form['submit'] = array(
+      '#type' => 'submit',
+      '#value' => 'Do Maths',
+    );
     return $form;
   }
 
