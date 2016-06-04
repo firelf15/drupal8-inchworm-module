@@ -16,7 +16,7 @@ function inchworm_help($route_name, RouteMatchInterface $route_match) {
     case 'help.page.inchworm':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      $output .= '<p>' . t("Inchorwm is an old school song for kids, way old school, but is has Maths so there's that.") . '</p>';
       return $output;
 
     default:
