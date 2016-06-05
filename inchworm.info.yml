@@ -1,5 +1,5 @@
-name: inchworm
+name: Inchworm
 type: module
-description: Inch worm, inch worm, Measuring the marigolds, You and your arithmetic, You''ll probably go far --Paul McCartney
+description: "Inch worm, inch worm, Measuring the marigolds, You and your arithmetic, You'll probably go far --Paul McCartney"
 core: 8.x
 package: Custom

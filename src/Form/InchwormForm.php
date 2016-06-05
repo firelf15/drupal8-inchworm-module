@@ -42,6 +42,6 @@ class InchwormForm extends FormBase {
     // Display result.
     $one = $form_state->getValue('first_number');
     $two = $form_state->getValue('second_number');
-    drupal_set_message($one + $two);
+    drupal_set_message($one + $two . " is the sum of your two numbers.");
   }
 }

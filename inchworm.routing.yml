@@ -1,9 +1,3 @@
-inchworm:
-    path: /inchworm
-    defaults:
-        _controller: Drupal\inchworm\Controller\InchwormController::inchworm
-    requirements:
-        _permission: 'access content'
 inchworm.form:
     path: /inchworm-form
     defaults:

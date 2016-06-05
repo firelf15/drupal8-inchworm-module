@@ -10,13 +10,13 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function inchworm_help($route_name, RouteMatchInterface $route_match) {
+function inchworm_help($route_name, RouteMatchInterface $route_match){
   switch ($route_name) {
     // Main module help for the inchworm module.
     case 'help.page.inchworm':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t("Inchorwm is an old school song for kids, way old school, but is has Maths so there's that.") . '</p>';
+      $output .= '<p>' . t("Inchworm is an old school song for kids, way old school, but is has Maths so there's that.") . '</p>';
       return $output;
 
     default:
